@@ -67,3 +67,6 @@ end
 
 # Alternate/fast ERB when outside layouts
 gem "serbea-rails", "~> 1.0"
+
+# Used to Generate Ruby to Lit Web Components.
+gem "ruby2js", "~> 4.0"
