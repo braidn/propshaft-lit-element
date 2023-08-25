@@ -4,6 +4,6 @@ class WatchesTest < ApplicationSystemTestCase
   test "visiting the root url/index" do
     visit watches_url
   
-    assert_selector "h1", text: "Watches"
+    assert_selector "h1", text: "Your Watches"
   end
 end
