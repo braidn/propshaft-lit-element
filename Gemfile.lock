@@ -68,7 +68,6 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
-    ast (2.4.2)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -139,9 +138,6 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
-    parser (3.2.2.3)
-      ast (~> 2.4.1)
-      racc
     pg (1.5.3)
     playwright-ruby-client (1.37.1)
       concurrent-ruby (>= 1.1.6)
@@ -191,9 +187,6 @@ GEM
     reline (0.3.8)
       io-console (~> 0.5)
     rexml (3.2.6)
-    ruby2js (4.0.0)
-      parser
-      regexp_parser
     rubyzip (2.3.2)
     selenium-webdriver (4.10.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -248,7 +241,6 @@ DEPENDENCIES
   propshaft
   puma (~> 5.0)
   rails (~> 7.0.7)
-  ruby2js (~> 4.0)
   selenium-webdriver
   serbea-rails (~> 1.0)
   shoulda-matchers
